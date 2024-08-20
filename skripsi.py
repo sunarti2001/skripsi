@@ -14,6 +14,7 @@ import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('punkt_tab')
 
 # Membaca dataset yang telah dibuat
 df = pd.read_csv('komplen.csv')
